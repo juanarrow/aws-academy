@@ -52,8 +52,8 @@ Esa extensión usa el comando `terraform` para el autocompletado. Si Terraform e
 5. En la terminal de WSL, sitúate en esta carpeta y pega el bloque. En Windows Terminal el pegado es Ctrl+Shift+V o clic derecho:
 
 ```bash
-git clone https://github.com/juanarrow/aws-academy.git
-cd aws-academy
+git clone https://github.com/juanarrow/pipeline-csv-parquet.git
+cd pipeline-csv-parquet
 cat > credentials << 'EOF'
 ```
 
@@ -337,7 +337,7 @@ El nombre de la Lambda lleva el sufijo aleatorio. Los buckets son los que escrib
 Con el laboratorio en verde y `credentials` ya creado:
 
 ```bash
-cd aws-academy
+cd pipeline-csv-parquet
 unset AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY AWS_SESSION_TOKEN AWS_PROFILE
 export AWS_SHARED_CREDENTIALS_FILE="$PWD/credentials"
 export AWS_DEFAULT_REGION=us-east-1
