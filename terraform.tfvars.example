@@ -1,0 +1,5 @@
+aws_region       = "us-east-1"
+credentials_file = "./credentials"
+prefijo          = "bigdata"
+bucket_raw       = "tu-nombre-raw"
+bucket_limpio    = "tu-nombre-limpio"

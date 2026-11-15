@@ -1,0 +1,9 @@
+fecha, producto ,ventas,región
+2024-01-01, Manzanas ,10,Norte
+2024-01-01, Manzanas ,10,Norte
+ , , ,
+2024-01-02,Peras,3.5, Sur
+03/01/2024, Naranjas ,no-num,Sur
+2024-01-03,Naranjas,8,Sur
+2024-01-04,Plátanos, ,Este
+2024-01-04, Plátanos ,4,Este
